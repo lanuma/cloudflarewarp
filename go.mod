@@ -1,6 +1,6 @@
-module github.com/BetterCorp/cloudflarewarp
+module github.com/lanuma/cloudflarewarp
 
-go 1.23.0
+go 1.24.0
 
 retract (
 	v1.0.0 // No longer supported - removed from releases re 1.2.0
