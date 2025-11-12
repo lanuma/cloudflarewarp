@@ -74,5 +74,5 @@ jobs:
         with:
           name: logs
           if-no-files-found: error
-          path: ${{ github.workspace }}/go/src/github.com/${{ github.repository }}/test/logs-*
+          path: ./test/logs-*
           retention-days: 1
